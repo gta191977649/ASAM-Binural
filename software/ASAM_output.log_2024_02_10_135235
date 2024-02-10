@@ -1,0 +1,33 @@
+********************************************************************************
+Current time:2024-02-10 13:52:35
+MODE:2
+DATASET:WSJ0
+TRAIN_LIST:./train_wavlist_WSJ0
+VALID_LIST:./valid_wavlist_WSJ0
+TEST_LIST:./test_wavlist_WSJ0
+UNK_LIST:./unk_wavlist_WSJ0
+HIDDEN_UNITS:300
+NUM_LAYERS:2
+EMBEDDING_SIZE:40
+AUGMENT_DATA:True
+MAX_EPOCH:1
+EPOCH_SIZE:1
+BATCH_SIZE:32
+BATCH_SIZE_EVAL:800
+FRAME_RATE:8000
+FRAME_LENGTH:256
+FRAME_SHIFT:128
+SHUFFLE_BATCH:True
+MIN_MIX:2
+MAX_MIX:2
+MAX_LEN:56000
+TMP_PRED_WAV_FOLDER:_tmp_pred_wavs_new
+TMP_WEIGHT_FOLDER:binuaral_weight_mag
+UNK_SPK:False
+UNK_SPK_SUPP:10
+LOC_1:10
+LOC_2:120
+ROOMAnechoic
+EAR:RIGHT
+Load background (Street) noise wav...
+********************************************************************************
